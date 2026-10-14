@@ -1,0 +1,17 @@
+:root {
+  color: #1c2430;
+  background: #f4f6f8;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}

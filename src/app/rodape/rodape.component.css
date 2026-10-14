@@ -1,0 +1,10 @@
+.rodape {
+  margin-top: auto;
+  padding: 1rem 1.5rem;
+  background: #12324d;
+  color: #f7fbff;
+}
+
+.rodape p {
+  margin: 0;
+}

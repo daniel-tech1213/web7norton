@@ -1,0 +1,8 @@
+<form class="barra" (ngSubmit)="buscar()">
+  <label for="busca">Buscar</label>
+  <input id="busca" name="busca" type="search" [ngModel]="termo()" (ngModelChange)="termo.set($event)" />
+  <button type="submit">Buscar</button>
+  @if (resultado()) {
+    <p class="resultado">{{ resultado() }}</p>
+  }
+</form>

@@ -1,0 +1,27 @@
+<section class="cartao">
+  <h1>Login</h1>
+  <form (ngSubmit)="entrar()">
+    <label for="email-login">E-mail</label>
+    <input
+      id="email-login"
+      name="email"
+      type="email"
+      [ngModel]="email()"
+      (ngModelChange)="email.set($event)"
+    />
+
+    <label for="senha-login">Senha</label>
+    <input
+      id="senha-login"
+      name="senha"
+      type="password"
+      [ngModel]="senha()"
+      (ngModelChange)="senha.set($event)"
+    />
+
+    <button type="submit">Entrar</button>
+    @if (mensagem()) {
+      <p class="mensagem">{{ mensagem() }}</p>
+    }
+  </form>
+</section>

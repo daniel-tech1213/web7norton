@@ -1,0 +1,11 @@
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  width: min(960px, calc(100% - 2rem));
+  margin: 1.5rem auto;
+  flex: 1;
+}

@@ -1,0 +1,16 @@
+.topo {
+  background: #12324d;
+  color: #f7fbff;
+  padding: 1.25rem 1.5rem;
+}
+
+.marca {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.subtitulo {
+  margin: 0.25rem 0 0;
+  opacity: 0.85;
+}

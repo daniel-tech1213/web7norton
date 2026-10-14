@@ -1,0 +1,10 @@
+.cartao {
+  background: #fff;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgb(18 50 77 / 8%);
+}
+
+h1 {
+  margin-top: 0;
+}
